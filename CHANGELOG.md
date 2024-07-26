@@ -45,6 +45,9 @@ Main (unreleased)
 
 - `mimir.rules.kubernetes` is now able to add extra labels to the Prometheus rules. (@psychomantys)
 
+- Enable instances connected to remotecfg-compatible servers to Register and
+  Unregister themselves from the remote service. (@tpaschalis)
+
 ### Bugfixes
 
 - Fixed a clustering mode issue where a fatal startup failure of the clustering service
