@@ -45,6 +45,8 @@ Main (unreleased)
 
 - `mimir.rules.kubernetes` is now able to add extra labels to the Prometheus rules. (@psychomantys)
 
+- Allow in-memory listener to work for remotecfg-supplied components. (@tpaschalis)
+
 ### Bugfixes
 
 - Fixed a clustering mode issue where a fatal startup failure of the clustering service
